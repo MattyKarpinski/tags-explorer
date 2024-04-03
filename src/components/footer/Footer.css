@@ -1,0 +1,18 @@
+.footer-signature {
+    height: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-signature i {
+color: var(--color-tertiary);
+}
+
+.footer-signature a {
+color: var(--color-tertiary);
+text-decoration: none;
+}
+

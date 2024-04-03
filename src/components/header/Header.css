@@ -1,0 +1,48 @@
+.header-box {
+   padding: 1em 0;
+}
+
+.header-box, .header-box ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.app-name, .app-name span {
+    font-size: 3vw;
+    text-transform: capitalize;
+    color: var(--color-primary);
+}
+
+.app-name span {
+    color: var( --color-tertiary)
+}
+
+.header-box a {
+    padding: 1em 1.5em;
+    color: var(--color-tertiary); 
+}
+
+.header-box li:hover > a {
+    font-weight: 600; 
+}
+
+@media screen and (max-width: 768px) {
+    .header-box {
+        flex-direction: column;
+    }
+
+    .header-box ul {
+        margin: 1em 0;
+    }
+
+    .app-name, .app-name span {
+        font-size: 6vw;
+    }
+
+   
+  }
+
+
